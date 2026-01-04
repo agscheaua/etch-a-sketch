@@ -4,6 +4,25 @@
     padding: 0px;
 }
 
+body {
+    background-color: pink;
+}
+
+button {
+    margin: 5px 0px 0px 5px;
+    border-radius: 3px;
+    padding: 0px 5px;
+    background-color: purple;
+    font-size: 16.6px; 
+}
+
+.infoBox {
+    text-align: center;
+    font-size: 16.6px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -15,13 +34,21 @@
 }
  
 .container .sqare {
-    height: 1px;
-    width: 1px;
+    height: 56.25px; 
+    width: 56.25px; 
+    background-color: red; 
+    border: 1px solid blue;
+    padding: 0px; 
+    margin: 0px; 
+}
+
+ .container .initialSqare {
+    height: 56.25px; 
+    width: 56.25px; 
     background-color: red;
     border: 1px solid blue;
     padding: 0px; 
     margin: 0px;
+    opacity: 1;
 }
-
- 
               
