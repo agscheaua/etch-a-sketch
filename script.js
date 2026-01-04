@@ -17,7 +17,7 @@ let initialSqares = document.querySelectorAll(".initialSqare");
 initialSqares.forEach( (sqare) => {
     sqare.style.opacity = Number(1);
     sqare.addEventListener("mouseenter", () => {
-        sqare.style.backgroundColor = "purple";
+        sqare.style.backgroundColor = `rgb${createRandomColor()}`;
         if (sqare.style.opacity > 0) {
             sqare.style.opacity = sqare.style.opacity - 0.1;
         }
